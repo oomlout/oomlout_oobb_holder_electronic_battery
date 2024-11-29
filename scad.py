@@ -43,18 +43,31 @@ def make_scad(**kwargs):
     if True:
 
         part_default = {} 
-        part_default["project_name"] = "test" ####### neeeds setting
+        part_default["project_name"] = "oomlout_oobb_holder_electronic_battery" ####### neeeds setting
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        #p3["thickness"] = 6
+        p3["width"] = 3
+        p3["height"] = 4
+        p3["thickness"] = 6
+        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_bottom"
         part["kwargs"] = p3
         part["name"] = "base"
         parts.append(part)
 
-        
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 3
+        p3["height"] = 1
+        p3["thickness"] = 15
+        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_top"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
+
+
     #make the parts
     if True:
         for part in parts:
@@ -79,13 +92,19 @@ def make_scad(**kwargs):
         generate_navigation(sort = sort)
 
 def get_base(thing, **kwargs):
+    extra = kwargs.get("extra", "")
+    if "electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket" in extra:
+        get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
 
+
+def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
     #pos = copy.deepcopy(pos)
     #pos[2] += -20
 
@@ -106,11 +125,47 @@ def get_base(thing, **kwargs):
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
     p3["depth"] = depth
-    p3["holes"] = "perimeter"
+    p3["holes"] = ["top","bottom"]
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+
+    connecting_bolt_positions = []
+
+    if "electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket" in extra:
+        thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
+        connecting_bolt_positions.append([1,3])
+        connecting_bolt_positions.append([3,3])
+
+    #add nut cutouts
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_nut"
+    p3["radius_name"] = "m6"
+    p3["hole"] = True
+    p3["overhang"] = True
+    p3["m"] = "#"
+    poss = []
+    for position_bolt in connecting_bolt_positions:
+        pos1 = copy.deepcopy(pos)
+        shift_x = -width/2 * 15 + position_bolt[0] * 15 - 15/2
+        shift_y = -height/2 * 15 + position_bolt[1] * 15 - 15/2
+        pos1[0] += shift_x
+        pos1[1] += shift_y
+        pos1[2] += 0
+        poss.append(pos1)
+    p3["pos"] = poss
+    rot1 = copy.deepcopy(rot)
+    rot1[2] = 360/12
+    p3["rot"] = rot1
+    oobb_base.append_full(thing,**p3)
+
+
+
+
+
 
     if prepare_print:
         #put into a rotation object
@@ -133,7 +188,67 @@ def get_base(thing, **kwargs):
         p3["shape"] = f"oobb_slice"
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
+def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
+    pos = kwargs.get("pos", [0, 0, 0])
+    rot = kwargs.get("rot", [0, 0, 0])
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+
+    ex = 1
+    rad = (15 + ex) / 2
+    wire_stickout_height = 3 + ex
+
+    dep = 50 + ex + ex
+
+    #shift = [5,5,5]
+    shift_x = 0
+    shift_y = dep/2#height/2 * 15 - 0.5
+    shift_z = rad + wire_stickout_height - ex
+    shift = [shift_x,shift_y,shift_z]
+
+    #add main cylinder
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cylinder"
     
+    p3["radius"] = rad
+    dep = dep
+    p3["depth"] = dep
+    p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)        
+    pos1 = [pos1[i] + shift[i] for i in range(3)]   #add shift to pos1 in a single line
+    pos1[2] += dep/2
+    p3["pos"] = pos1
+    rot1 = copy.deepcopy(rot)
+    rot1[0] += 90
+    p3["rot"] = rot1
+    oobb_base.append_full(thing,**p3)
+
+    #add square bottom cutout piece
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cube"
+    w = 6 + ex
+    clearance_top = 20
+    h = 30 + ex + clearance_top
+    d = 6
+    p3["size"] = [w,h,d]    
+    p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)    
+    pos1 = [pos1[i] + shift[i] for i in range(3)] #add shift to pos1 in a single line    
+    pos1[1] += -h/2 + clearance_top
+    pos1[2] += -(rad - d/2 + wire_stickout_height - ex) #three above the radius of the battery
+    p3["pos"] = pos1
+    rot1 = copy.deepcopy(rot)
+    p3["rot"] = rot1
+    p3["zz"] = "middle"
+    oobb_base.append_full(thing,**p3)
+
+
+
+    return thing 
+
 ###### utilities
 
 
