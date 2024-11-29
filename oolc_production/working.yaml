@@ -1,0 +1,6 @@
+project_id: oomlout_oobb_holder_electronic_battery
+project_name: Oomlout Oobb Holder Electronic Battery
+project_repo: https://github.com/oomlout/oomlout_oobb_holder_electronic_battery
+production_format:
+  oolc_1:
+    file_location: source_files/oolc_1.cdr
