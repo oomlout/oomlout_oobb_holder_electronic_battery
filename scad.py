@@ -17,7 +17,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        kwargs["save_type"] = "all"
+        #kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -51,7 +51,7 @@ def make_scad(**kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["width"] = 3
         p3["height"] = 4
-        p3["thickness"] = 6
+        p3["thickness"] = 9
         p3["extra"] = "single_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
         part["kwargs"] = p3
         part["name"] = "base"
@@ -61,7 +61,7 @@ def make_scad(**kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["width"] = 4
         p3["height"] = 4
-        p3["thickness"] = 6
+        p3["thickness"] = 9
         p3["extra"] = "double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
         part["kwargs"] = p3
         part["name"] = "base"
@@ -98,8 +98,8 @@ def get_base(thing, **kwargs):
 
 
 def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
-    prepare_print = kwargs.get("prepare_print", False)
-    #prepare_print = kwargs.get("prepare_print", True)
+    #prepare_print = kwargs.get("prepare_print", False)
+    prepare_print = kwargs.get("prepare_print", True)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
@@ -124,7 +124,7 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "p"
     p3["shape"] = f"oobb_plate"
-    dep_top = 15
+    dep_top = 21 - depth
     p3["depth"] = dep_top
     p3["height"] = 1    
     #p3["m"] = "#"
@@ -284,11 +284,11 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_cube"
-    w = 15+ex
+    w = rad * 2
     h = 15
-    d = 5.5
+    d = rad + wire_stickout_height - depth
     p3["size"] = [w,h,d]
-    p3["m"] = "#"
+    #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)
     pos1[1] += 15/2
     pos1[2] += depth
