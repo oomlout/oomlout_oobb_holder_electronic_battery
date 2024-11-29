@@ -52,11 +52,20 @@ def make_scad(**kwargs):
         p3["width"] = 3
         p3["height"] = 4
         p3["thickness"] = 6
-        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
+        p3["extra"] = "single_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
         part["kwargs"] = p3
         part["name"] = "base"
         parts.append(part)
 
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 4
+        p3["height"] = 4
+        p3["thickness"] = 6
+        p3["extra"] = "double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
 
     #make the parts
     if True:
@@ -84,11 +93,13 @@ def make_scad(**kwargs):
 def get_base(thing, **kwargs):
     extra = kwargs.get("extra", "")
     if "electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket" in extra:
-        get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
+        thing = get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
+                    
 
 
 def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
-    prepare_print = kwargs.get("prepare_print", True)
+    prepare_print = kwargs.get("prepare_print", False)
+    #prepare_print = kwargs.get("prepare_print", True)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
@@ -141,9 +152,21 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     connecting_bolt_positions = []
 
     if "electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket" in extra:
-        thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
-        connecting_bolt_positions.append([1,3])
-        connecting_bolt_positions.append([3,3])
+        if "single" in extra:
+            thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
+            connecting_bolt_positions.append([1,3])
+            connecting_bolt_positions.append([3,3])
+        elif "double" in extra:
+            p3 = copy.deepcopy(kwargs)
+            shift = [7.5,0,0]
+            p3["shift"] = shift
+            thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **p3)
+            p3 = copy.deepcopy(kwargs)
+            shift = [-7.5,0,0]
+            p3["shift"] = shift
+            thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **p3)            
+            connecting_bolt_positions.append([1,3])
+            connecting_bolt_positions.append([4,3])
 
     #add nut cutouts
     p3 = copy.deepcopy(kwargs)
@@ -180,7 +203,7 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
         return_value_2["type"]  = "rotation"
         return_value_2["typetype"]  = "p"
         pos1 = copy.deepcopy(pos)
-        pos1[0] += 50
+        pos1[0] += 100
         pos1[2] += depth * 2
         return_value_2["pos"] = pos1
         return_value_2["rot"] = [180,0,0]
@@ -205,18 +228,19 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)
+    shift = kwargs.get("shift", [0, 0, 0])
 
-    ex = 1
+    ex = 0.25
     rad = (15 + ex) / 2
     wire_stickout_height = 3 + ex
 
     dep = 50 + ex + ex
 
     #shift = [5,5,5]
-    shift_x = 0
-    shift_y = dep/2#height/2 * 15 - 0.5
-    shift_z = rad + wire_stickout_height - ex
-    shift = [shift_x,shift_y,shift_z]
+    shift[0] += 0
+    shift[1] += dep/2#height/2 * 15 - 0.5
+    shift[2] += rad + wire_stickout_height - ex
+    
 
     #add main cylinder
     p3 = copy.deepcopy(kwargs)
@@ -260,7 +284,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_cube"
-    w = 15+1
+    w = 15+ex
     h = 15
     d = 5.5
     p3["size"] = [w,h,d]
