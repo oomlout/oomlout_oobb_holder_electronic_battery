@@ -1399,7 +1399,7 @@ thing:
         size:
         - 6.25
         - 50.25
-        - 6
+        - 9
         type: negative
         width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
@@ -1474,7 +1474,7 @@ thing:
         size:
         - 6.25
         - 50.25
-        - 6
+        - 9
         type: negative
         width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
@@ -3556,7 +3556,7 @@ thing:
           size:
           - 6.25
           - 50.25
-          - 6
+          - 9
           type: negative
           width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
@@ -3631,7 +3631,7 @@ thing:
           size:
           - 6.25
           - 50.25
-          - 6
+          - 9
           type: negative
           width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
@@ -4464,7 +4464,7 @@ thing:
     pos:
     - 7.5
     - 20.125
-    - 3.0
+    - 4.5
     rot:
     - 0
     - 0
@@ -4478,7 +4478,7 @@ thing:
     size:
     - 6.25
     - 50.25
-    - 6
+    - 9
     thickness: 9
     type: n
     width: 4
@@ -4542,7 +4542,7 @@ thing:
     pos:
     - -7.5
     - 20.125
-    - 3.0
+    - 4.5
     rot:
     - 0
     - 0
@@ -4556,7 +4556,7 @@ thing:
     size:
     - 6.25
     - 50.25
-    - 6
+    - 9
     thickness: 9
     type: n
     width: 4
@@ -4649,10 +4649,10 @@ thing:
   - oobb_plate_shape_p_type_12_depth_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_1_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
   - oobb_holes_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_both_holes_'top'_'bottom'_holes
   - oobb_cylinder_shape_n_type_50.5_depth_7.5_25.25_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_25.25_10.625_shift_7.625_radius_90_0_0_rot
-  - oobb_cube_shape_n_type_7.5_20.125_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_25.25_10.625_shift_6.25_50.25_6_size_0_0_0_rot_middle_zz
+  - oobb_cube_shape_n_type_7.5_20.125_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_25.25_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
   - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_25.25_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
   - oobb_cylinder_shape_n_type_50.5_depth_-7.5_25.25_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_25.25_10.625_shift_7.625_radius_90_0_0_rot
-  - oobb_cube_shape_n_type_-7.5_20.125_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_25.25_10.625_shift_6.25_50.25_6_size_0_0_0_rot_middle_zz
+  - oobb_cube_shape_n_type_-7.5_20.125_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_25.25_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
   - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_25.25_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
   - oobb_nut_shape_n_type_m6_radius_name_-22.5_7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot
   - oobb_nut_shape_n_type_m6_radius_name_22.5_7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot

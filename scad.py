@@ -17,7 +17,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -267,7 +267,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     w = 6 + ex
     clearance_top = 20
     h = 30 + ex + clearance_top
-    d = 6
+    d = depth
     p3["size"] = [w,h,d]    
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)    
