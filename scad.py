@@ -17,7 +17,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -52,17 +52,7 @@ def make_scad(**kwargs):
         p3["width"] = 3
         p3["height"] = 4
         p3["thickness"] = 6
-        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_bottom"
-        part["kwargs"] = p3
-        part["name"] = "base"
-        parts.append(part)
-
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 1
-        p3["thickness"] = 15
-        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_top"
+        p3["extra"] = "1x_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
         part["kwargs"] = p3
         part["name"] = "base"
         parts.append(part)
@@ -98,7 +88,7 @@ def get_base(thing, **kwargs):
 
 
 def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
-    prepare_print = kwargs.get("prepare_print", False)
+    prepare_print = kwargs.get("prepare_print", True)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
@@ -118,7 +108,23 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+    #add top plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_plate"
+    dep_top = 15
+    p3["depth"] = dep_top
+    p3["height"] = 1    
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)
+    pos1[1] += 15/2
+    pos1[2] += depth
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
     
+
     #add holes seperate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "p"
@@ -146,7 +152,7 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     p3["radius_name"] = "m6"
     p3["hole"] = True
     p3["overhang"] = True
-    p3["m"] = "#"
+    #p3["m"] = "#"
     poss = []
     for position_bolt in connecting_bolt_positions:
         pos1 = copy.deepcopy(pos)
@@ -175,6 +181,7 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
         return_value_2["typetype"]  = "p"
         pos1 = copy.deepcopy(pos)
         pos1[0] += 50
+        pos1[2] += depth * 2
         return_value_2["pos"] = pos1
         return_value_2["rot"] = [180,0,0]
         return_value_2["objects"] = components_second
@@ -187,6 +194,9 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
         p3["type"] = "n"
         p3["shape"] = f"oobb_slice"
         #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += -500 + depth
+        p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
 def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs):
@@ -194,6 +204,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     rot = kwargs.get("rot", [0, 0, 0])
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)
 
     ex = 1
     rad = (15 + ex) / 2
@@ -215,7 +226,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     p3["radius"] = rad
     dep = dep
     p3["depth"] = dep
-    p3["m"] = "#"
+    #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)        
     pos1 = [pos1[i] + shift[i] for i in range(3)]   #add shift to pos1 in a single line
     pos1[2] += dep/2
@@ -225,7 +236,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     p3["rot"] = rot1
     oobb_base.append_full(thing,**p3)
 
-    #add square bottom cutout piece
+    #add square bottom cutout piece for
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_cube"
@@ -234,7 +245,7 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     h = 30 + ex + clearance_top
     d = 6
     p3["size"] = [w,h,d]    
-    p3["m"] = "#"
+    #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)    
     pos1 = [pos1[i] + shift[i] for i in range(3)] #add shift to pos1 in a single line    
     pos1[1] += -h/2 + clearance_top
@@ -245,7 +256,23 @@ def add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_lat
     p3["zz"] = "middle"
     oobb_base.append_full(thing,**p3)
 
-
+    #add top plate cutout
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cube"
+    w = 15+1
+    h = 15
+    d = 5.5
+    p3["size"] = [w,h,d]
+    p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)
+    pos1[1] += 15/2
+    pos1[2] += depth
+    p3["pos"] = pos1
+    rot1 = copy.deepcopy(rot)
+    p3["rot"] = rot1
+    p3["zz"] = "bottom"
+    oobb_base.append_full(thing,**p3)
 
     return thing 
 
