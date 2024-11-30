@@ -59,8 +59,30 @@ def make_scad(**kwargs):
 
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
+        p3["width"] = 3
+        p3["height"] = 5
+        p3["thickness"] = 9
+        p3["extra"] = "single_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
+
+
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
         p3["width"] = 4
         p3["height"] = 4
+        p3["thickness"] = 9
+        p3["extra"] = "double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
+
+        
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 4
+        p3["height"] = 5
         p3["thickness"] = 9
         p3["extra"] = "double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
         part["kwargs"] = p3
@@ -129,7 +151,10 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     p3["height"] = 1    
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)
-    pos1[1] += 15/2
+    shift_y = 15/2
+    if height % 2 != 0:
+        shift_y = 15
+    pos1[1] += shift_y
     pos1[2] += depth
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
@@ -142,7 +167,10 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
     p3["depth"] = depth
-    p3["holes"] = ["top","bottom"]
+    if height == 4:
+        p3["holes"] = ["top","bottom"]
+    elif height == 5:
+        p3["holes"] = ["top","left","bottom"]
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
@@ -153,16 +181,23 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
 
     if "electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket" in extra:
         if "single" in extra:
-            thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **kwargs)
+            p3 = copy.deepcopy(kwargs)
+            if height == 5:
+                shift = [0,7.5,0]                
+                p3["shift"] = shift
+            thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **p3)
             connecting_bolt_positions.append([1,3])
             connecting_bolt_positions.append([3,3])
         elif "double" in extra:
+            if height == 5:
+                shift_y = 7.5
+            
             p3 = copy.deepcopy(kwargs)
-            shift = [7.5,0,0]
+            shift = [7.5,shift_y,0]
             p3["shift"] = shift
             thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **p3)
             p3 = copy.deepcopy(kwargs)
-            shift = [-7.5,0,0]
+            shift = [-7.5,shift_y,0]
             p3["shift"] = shift
             thing = add_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket(thing, **p3)            
             connecting_bolt_positions.append([1,3])

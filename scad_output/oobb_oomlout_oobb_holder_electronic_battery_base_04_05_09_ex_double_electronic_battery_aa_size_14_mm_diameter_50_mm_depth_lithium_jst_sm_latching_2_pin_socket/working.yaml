@@ -6,10 +6,10 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_oomlout_oobb_holder_electronic_battery_base_04_04_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
+id: oobb_oomlout_oobb_holder_electronic_battery_base_04_05_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
 kwargs:
   extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-  height: 4
+  height: 5
   modes:
   - 3dpr
   overwrite: true
@@ -22,7 +22,7 @@ thing:
   components:
   - - depth: 9
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-      height: 4
+      height: 5
       pos:
       - 0
       - 0
@@ -30,7 +30,7 @@ thing:
       shape: rounded_rectangle
       size:
       - 59
-      - 59
+      - 74
       - 9
       type: positive
       width: 4
@@ -39,7 +39,7 @@ thing:
       height: 1
       pos:
       - 0
-      - 7.5
+      - 15
       - 9
       shape: rounded_rectangle
       size:
@@ -53,7 +53,7 @@ thing:
         m: ''
         pos: &id001
         - -22.5
-        - -22.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -77,7 +77,7 @@ thing:
         m: ''
         pos: &id002
         - -22.5
-        - -7.5
+        - -15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -101,7 +101,7 @@ thing:
         m: ''
         pos: &id003
         - -22.5
-        - 7.5
+        - 0.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -125,7 +125,7 @@ thing:
         m: ''
         pos: &id004
         - -22.5
-        - 22.5
+        - 15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -148,8 +148,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id005
-        - 22.5
         - -22.5
+        - 30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -173,7 +173,7 @@ thing:
         m: ''
         pos: &id006
         - 22.5
-        - -7.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -197,7 +197,7 @@ thing:
         m: ''
         pos: &id007
         - 22.5
-        - 7.5
+        - -15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -221,7 +221,7 @@ thing:
         m: ''
         pos: &id008
         - 22.5
-        - 22.5
+        - 0.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -245,7 +245,7 @@ thing:
         m: ''
         pos: &id009
         - 22.5
-        - -22.5
+        - 15.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -269,7 +269,7 @@ thing:
         m: ''
         pos: &id010
         - 22.5
-        - -7.5
+        - 30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -292,8 +292,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id011
-        - 22.5
-        - 7.5
+        - -22.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -316,8 +316,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id012
-        - 22.5
-        - 22.5
+        - -7.5
+        - -30.0
         - -100.0
         r: 3.0
         shape: cylinder
@@ -340,176 +340,176 @@ thing:
         inclusion: laser
         m: ''
         pos: &id013
-        - -22.5
-        - -22.5
+        - 7.5
+        - -30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id013
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id013
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id014
-        - -22.5
-        - -15.0
+        - 22.5
+        - -30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id014
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id014
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id015
-        - -22.5
-        - -7.5
+        - 22.5
+        - -30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id015
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id015
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id016
-        - -22.5
-        - 0.0
+        - 22.5
+        - -15.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id016
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id016
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id017
-        - -22.5
-        - 7.5
+        - 22.5
+        - 0.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id017
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id017
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id018
-        - -22.5
+        - 22.5
         - 15.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id018
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id018
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id019
-        - -22.5
         - 22.5
+        - 30.0
         - -100.0
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 3dpr
         m: ''
         pos: *id019
-        r: 1.8
+        r: 3.25
         shape: cylinder
         type: negative
       - h: 200
         inclusion: 'true'
         m: ''
         pos: *id019
-        r: 1.5
+        r: 3.0
         shape: cylinder
         type: negative
     - - h: 200
         inclusion: laser
         m: ''
         pos: &id020
-        - 22.5
         - -22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -532,8 +532,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id021
-        - 22.5
-        - -15.0
+        - -22.5
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -556,8 +556,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id022
-        - 22.5
-        - -7.5
+        - -22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -580,8 +580,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id023
-        - 22.5
-        - 0.0
+        - -22.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -604,8 +604,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id024
-        - 22.5
-        - 7.5
+        - -22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -628,8 +628,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id025
-        - 22.5
-        - 15.0
+        - -22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -652,8 +652,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id026
-        - 22.5
-        - 22.5
+        - -22.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -677,7 +677,7 @@ thing:
         m: ''
         pos: &id027
         - -22.5
-        - -22.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -701,7 +701,7 @@ thing:
         m: ''
         pos: &id028
         - -22.5
-        - -15.0
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -724,8 +724,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id029
-        - -22.5
-        - -7.5
+        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -748,8 +748,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id030
+        - 22.5
         - -22.5
-        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -772,8 +772,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id031
-        - -22.5
-        - 7.5
+        - 22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -796,8 +796,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id032
-        - -22.5
-        - 15.0
+        - 22.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -820,8 +820,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id033
-        - -22.5
         - 22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -845,7 +845,7 @@ thing:
         m: ''
         pos: &id034
         - 22.5
-        - -22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -869,7 +869,7 @@ thing:
         m: ''
         pos: &id035
         - 22.5
-        - -15.0
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -893,7 +893,7 @@ thing:
         m: ''
         pos: &id036
         - 22.5
-        - -7.5
+        - 22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -917,7 +917,7 @@ thing:
         m: ''
         pos: &id037
         - 22.5
-        - 0.0
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -940,8 +940,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id038
-        - 22.5
-        - 7.5
+        - -22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -964,8 +964,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id039
-        - 22.5
-        - 15.0
+        - -15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -988,8 +988,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id040
-        - 22.5
-        - 22.5
+        - -7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1012,8 +1012,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id041
-        - -22.5
-        - -22.5
+        - 0.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1036,8 +1036,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id042
-        - -22.5
-        - -15.0
+        - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1060,8 +1060,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id043
-        - -22.5
-        - -7.5
+        - 15.0
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1084,8 +1084,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id044
-        - -22.5
-        - 0.0
+        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1109,7 +1109,7 @@ thing:
         m: ''
         pos: &id045
         - -22.5
-        - 7.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1133,7 +1133,7 @@ thing:
         m: ''
         pos: &id046
         - -22.5
-        - 15.0
+        - -22.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1157,7 +1157,7 @@ thing:
         m: ''
         pos: &id047
         - -22.5
-        - 22.5
+        - -15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1180,8 +1180,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id048
-        - 22.5
         - -22.5
+        - -7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1204,8 +1204,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id049
-        - 22.5
-        - -15.0
+        - -22.5
+        - 0.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1228,8 +1228,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id050
-        - 22.5
-        - -7.5
+        - -22.5
+        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1252,8 +1252,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id051
-        - 22.5
-        - 0.0
+        - -22.5
+        - 15.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1276,8 +1276,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id052
+        - -22.5
         - 22.5
-        - 7.5
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1300,8 +1300,8 @@ thing:
         inclusion: laser
         m: ''
         pos: &id053
-        - 22.5
-        - 15.0
+        - -22.5
+        - 30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1325,7 +1325,7 @@ thing:
         m: ''
         pos: &id054
         - 22.5
-        - 22.5
+        - -30.0
         - -100.0
         r: 1.5
         shape: cylinder
@@ -1344,18 +1344,978 @@ thing:
         r: 1.5
         shape: cylinder
         type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id055
+        - 22.5
+        - -22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id055
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id055
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id056
+        - 22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id056
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id056
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id057
+        - 22.5
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id057
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id057
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id058
+        - 22.5
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id058
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id058
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id059
+        - 22.5
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id059
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id059
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id060
+        - 22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id060
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id060
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id061
+        - 22.5
+        - 22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id061
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id061
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id062
+        - 22.5
+        - 30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id062
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id062
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id063
+        - -22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id063
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id063
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id064
+        - -15.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id064
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id064
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id065
+        - -7.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id065
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id065
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id066
+        - 0.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id066
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id066
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id067
+        - 7.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id067
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id067
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id068
+        - 15.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id068
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id068
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id069
+        - 22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id069
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id069
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id070
+        - -22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id070
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id070
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id071
+        - -22.5
+        - -22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id071
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id071
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id072
+        - -22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id072
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id072
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id073
+        - -22.5
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id073
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id073
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id074
+        - -22.5
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id074
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id074
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id075
+        - -22.5
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id075
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id075
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id076
+        - -22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id076
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id076
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id077
+        - -22.5
+        - 22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id077
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id077
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id078
+        - -22.5
+        - 30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id078
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id078
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id079
+        - 22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id079
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id079
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id080
+        - 22.5
+        - -22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id080
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id080
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id081
+        - 22.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id081
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id081
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id082
+        - 22.5
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id082
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id082
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id083
+        - 22.5
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id083
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id083
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id084
+        - 22.5
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id084
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id084
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id085
+        - 22.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id085
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id085
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id086
+        - 22.5
+        - 22.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id086
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id086
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id087
+        - 22.5
+        - 30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id087
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id087
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id088
+        - -22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id088
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id088
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id089
+        - -15.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id089
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id089
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id090
+        - -7.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id090
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id090
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id091
+        - 0.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id091
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id091
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id092
+        - 7.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id092
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id092
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id093
+        - 15.0
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id093
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id093
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos: &id094
+        - 22.5
+        - -30.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos: *id094
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos: *id094
+        r: 1.5
+        shape: cylinder
+        type: negative
   - - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: laser
-      pos: &id055
+      pos: &id095
       - 7.5
       - 32.75
       - 10.625
       r: 7.625
       radius: 7.625
-      rot: &id056
+      rot: &id096
       - 90
       - 0
       - 0
@@ -1365,28 +2325,28 @@ thing:
     - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: 3dpr
-      pos: *id055
+      pos: *id095
       r: 7.625
-      rot: *id056
+      rot: *id096
       shape: cylinder
       type: negative
       width: 4
     - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: 'true'
-      pos: *id055
+      pos: *id095
       r: 7.625
       radius: 7.625
-      rot: *id056
+      rot: *id096
       shape: cylinder
       type: negative
       width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-        height: 4
+        height: 5
         pos:
         - 4.375
         - 2.5
@@ -1403,7 +2363,7 @@ thing:
         type: negative
         width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-        height: 4
+        height: 5
         pos:
         - -7.625
         - 0.0
@@ -1422,15 +2382,15 @@ thing:
   - - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: laser
-      pos: &id057
+      pos: &id097
       - -7.5
       - 32.75
       - 10.625
       r: 7.625
       radius: 7.625
-      rot: &id058
+      rot: &id098
       - 90
       - 0
       - 0
@@ -1440,28 +2400,28 @@ thing:
     - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: 3dpr
-      pos: *id057
+      pos: *id097
       r: 7.625
-      rot: *id058
+      rot: *id098
       shape: cylinder
       type: negative
       width: 4
     - depth: 50.5
       extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
       h: 50.5
-      height: 4
+      height: 5
       inclusion: 'true'
-      pos: *id057
+      pos: *id097
       r: 7.625
       radius: 7.625
-      rot: *id058
+      rot: *id098
       shape: cylinder
       type: negative
       width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-        height: 4
+        height: 5
         pos:
         - -10.625
         - 2.5
@@ -1478,7 +2438,7 @@ thing:
         type: negative
         width: 4
   - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-        height: 4
+        height: 5
         pos:
         - -7.625
         - 0.0
@@ -1508,7 +2468,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1525,7 +2485,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1542,7 +2502,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1559,7 +2519,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1577,9 +2537,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id059
+          pos: &id099
           - 0
           - 0
           - -100.0
@@ -1589,18 +2549,18 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id059
+          pos: *id099
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id059
+          pos: *id099
           r: 3.0
           shape: cylinder
           type: positive
@@ -1618,7 +2578,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1635,7 +2595,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1652,7 +2612,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1669,7 +2629,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1687,9 +2647,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id060
+          pos: &id100
           - 0
           - 0
           - -100.0
@@ -1699,18 +2659,18 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id060
+          pos: *id100
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id060
+          pos: *id100
           r: 3.0
           shape: cylinder
           type: positive
@@ -1728,7 +2688,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1745,7 +2705,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1762,7 +2722,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1779,7 +2739,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1797,9 +2757,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id061
+          pos: &id101
           - 0
           - 0
           - -100.0
@@ -1809,25 +2769,25 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id061
+          pos: *id101
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id061
+          pos: *id101
           r: 3.0
           shape: cylinder
           type: positive
           width: 4
       pos:
       - -22.5
-      - 7.5
+      - 0.0
       - 0
       rot:
       - 0
@@ -1849,7 +2809,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1866,7 +2826,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1883,7 +2843,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1900,7 +2860,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1918,9 +2878,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id062
+          pos: &id102
           - 0
           - 0
           - -100.0
@@ -1930,18 +2890,18 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id062
+          pos: *id102
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id062
+          pos: *id102
           r: 3.0
           shape: cylinder
           type: positive
@@ -1959,7 +2919,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1976,7 +2936,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -1993,7 +2953,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2010,7 +2970,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2028,9 +2988,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id063
+          pos: &id103
           - 0
           - 0
           - -100.0
@@ -2040,18 +3000,18 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id063
+          pos: *id103
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id063
+          pos: *id103
           r: 3.0
           shape: cylinder
           type: positive
@@ -2069,7 +3029,7 @@ thing:
         type: positive
         width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2086,7 +3046,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2103,7 +3063,7 @@ thing:
                   type: positive
                   width: 4
       - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2120,7 +3080,7 @@ thing:
                   type: positive
                   width: 4
           - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                  height: 4
+                  height: 5
                   inclusion: 3dpr
                   pos:
                   - -2.875
@@ -2138,9 +3098,9 @@ thing:
                   width: 4
       - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: laser
-          pos: &id064
+          pos: &id104
           - 0
           - 0
           - -100.0
@@ -2150,25 +3110,25 @@ thing:
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 3dpr
-          pos: *id064
+          pos: *id104
           r: 3.25
           shape: cylinder
           type: positive
           width: 4
         - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
           h: 200
-          height: 4
+          height: 5
           inclusion: 'true'
-          pos: *id064
+          pos: *id104
           r: 3.0
           shape: cylinder
           type: positive
           width: 4
       pos:
       - 22.5
-      - 7.5
+      - 0.0
       - 0
       rot:
       - 0
@@ -2179,7 +3139,7 @@ thing:
   - objects:
     - - depth: 9
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-        height: 4
+        height: 5
         pos:
         - 0
         - 0
@@ -2187,7 +3147,7 @@ thing:
         shape: rounded_rectangle
         size:
         - 59
-        - 59
+        - 74
         - 9
         type: positive
         width: 4
@@ -2196,7 +3156,7 @@ thing:
         height: 1
         pos:
         - 0
-        - 7.5
+        - 15
         - 9
         shape: rounded_rectangle
         size:
@@ -2208,985 +3168,25 @@ thing:
     - - - h: 200
           inclusion: laser
           m: ''
-          pos: &id065
-          - -22.5
-          - -22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id065
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id065
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id066
-          - -22.5
-          - -7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id066
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id066
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id067
-          - -22.5
-          - 7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id067
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id067
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id068
-          - -22.5
-          - 22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id068
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id068
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id069
-          - 22.5
-          - -22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id069
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id069
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id070
-          - 22.5
-          - -7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id070
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id070
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id071
-          - 22.5
-          - 7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id071
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id071
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id072
-          - 22.5
-          - 22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id072
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id072
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id073
-          - 22.5
-          - -22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id073
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id073
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id074
-          - 22.5
-          - -7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id074
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id074
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id075
-          - 22.5
-          - 7.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id075
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id075
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id076
-          - 22.5
-          - 22.5
-          - -100.0
-          r: 3.0
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id076
-          r: 3.25
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id076
-          r: 3.0
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id077
-          - -22.5
-          - -22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id077
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id077
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id078
-          - -22.5
-          - -15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id078
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id078
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id079
-          - -22.5
-          - -7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id079
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id079
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id080
-          - -22.5
-          - 0.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id080
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id080
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id081
-          - -22.5
-          - 7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id081
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id081
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id082
-          - -22.5
-          - 15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id082
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id082
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id083
-          - -22.5
-          - 22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id083
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id083
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id084
-          - 22.5
-          - -22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id084
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id084
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id085
-          - 22.5
-          - -15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id085
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id085
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id086
-          - 22.5
-          - -7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id086
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id086
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id087
-          - 22.5
-          - 0.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id087
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id087
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id088
-          - 22.5
-          - 7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id088
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id088
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id089
-          - 22.5
-          - 15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id089
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id089
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id090
-          - 22.5
-          - 22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id090
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id090
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id091
-          - -22.5
-          - -22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id091
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id091
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id092
-          - -22.5
-          - -15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id092
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id092
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id093
-          - -22.5
-          - -7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id093
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id093
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id094
-          - -22.5
-          - 0.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id094
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id094
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id095
-          - -22.5
-          - 7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id095
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id095
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id096
-          - -22.5
-          - 15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id096
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id096
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id097
-          - -22.5
-          - 22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id097
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id097
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id098
-          - 22.5
-          - -22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id098
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id098
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id099
-          - 22.5
-          - -15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id099
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id099
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id100
-          - 22.5
-          - -7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id100
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id100
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id101
-          - 22.5
-          - 0.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id101
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id101
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id102
-          - 22.5
-          - 7.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id102
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id102
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id103
-          - 22.5
-          - 15.0
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id103
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id103
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
-          pos: &id104
-          - 22.5
-          - 22.5
-          - -100.0
-          r: 1.5
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 3dpr
-          m: ''
-          pos: *id104
-          r: 1.8
-          shape: cylinder
-          type: negative
-        - h: 200
-          inclusion: 'true'
-          m: ''
-          pos: *id104
-          r: 1.5
-          shape: cylinder
-          type: negative
-      - - h: 200
-          inclusion: laser
-          m: ''
           pos: &id105
           - -22.5
-          - -22.5
+          - -30.0
           - -100.0
-          r: 1.5
+          r: 3.0
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 3dpr
           m: ''
           pos: *id105
-          r: 1.8
+          r: 3.25
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
           pos: *id105
-          r: 1.5
+          r: 3.0
           shape: cylinder
           type: negative
       - - h: 200
@@ -3196,27 +3196,507 @@ thing:
           - -22.5
           - -15.0
           - -100.0
-          r: 1.5
+          r: 3.0
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 3dpr
           m: ''
           pos: *id106
-          r: 1.8
+          r: 3.25
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
           pos: *id106
-          r: 1.5
+          r: 3.0
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
           pos: &id107
+          - -22.5
+          - 0.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id107
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id107
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id108
+          - -22.5
+          - 15.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id108
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id108
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id109
+          - -22.5
+          - 30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id109
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id109
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id110
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id110
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id110
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id111
+          - 22.5
+          - -15.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id111
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id111
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id112
+          - 22.5
+          - 0.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id112
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id112
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id113
+          - 22.5
+          - 15.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id113
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id113
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id114
+          - 22.5
+          - 30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id114
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id114
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id115
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id115
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id115
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id116
+          - -7.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id116
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id116
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id117
+          - 7.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id117
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id117
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id118
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id118
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id118
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id119
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id119
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id119
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id120
+          - 22.5
+          - -15.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id120
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id120
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id121
+          - 22.5
+          - 0.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id121
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id121
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id122
+          - 22.5
+          - 15.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id122
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id122
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id123
+          - 22.5
+          - 30.0
+          - -100.0
+          r: 3.0
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id123
+          r: 3.25
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id123
+          r: 3.0
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id124
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id124
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id124
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id125
+          - -22.5
+          - -22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id125
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id125
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id126
+          - -22.5
+          - -15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id126
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id126
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id127
           - -22.5
           - -7.5
           - -100.0
@@ -3226,21 +3706,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id107
+          pos: *id127
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id107
+          pos: *id127
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id108
+          pos: &id128
           - -22.5
           - 0.0
           - -100.0
@@ -3250,21 +3730,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id108
+          pos: *id128
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id108
+          pos: *id128
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id109
+          pos: &id129
           - -22.5
           - 7.5
           - -100.0
@@ -3274,21 +3754,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id109
+          pos: *id129
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id109
+          pos: *id129
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id110
+          pos: &id130
           - -22.5
           - 15.0
           - -100.0
@@ -3298,21 +3778,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id110
+          pos: *id130
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id110
+          pos: *id130
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id111
+          pos: &id131
           - -22.5
           - 22.5
           - -100.0
@@ -3322,21 +3802,69 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id111
+          pos: *id131
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id111
+          pos: *id131
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id112
+          pos: &id132
+          - -22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id132
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id132
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id133
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id133
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id133
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id134
           - 22.5
           - -22.5
           - -100.0
@@ -3346,21 +3874,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id112
+          pos: *id134
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id112
+          pos: *id134
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id113
+          pos: &id135
           - 22.5
           - -15.0
           - -100.0
@@ -3370,21 +3898,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id113
+          pos: *id135
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id113
+          pos: *id135
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id114
+          pos: &id136
           - 22.5
           - -7.5
           - -100.0
@@ -3394,21 +3922,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id114
+          pos: *id136
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id114
+          pos: *id136
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id115
+          pos: &id137
           - 22.5
           - 0.0
           - -100.0
@@ -3418,21 +3946,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id115
+          pos: *id137
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id115
+          pos: *id137
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id116
+          pos: &id138
           - 22.5
           - 7.5
           - -100.0
@@ -3442,21 +3970,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id116
+          pos: *id138
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id116
+          pos: *id138
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id117
+          pos: &id139
           - 22.5
           - 15.0
           - -100.0
@@ -3466,21 +3994,21 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id117
+          pos: *id139
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id117
+          pos: *id139
           r: 1.5
           shape: cylinder
           type: negative
       - - h: 200
           inclusion: laser
           m: ''
-          pos: &id118
+          pos: &id140
           - 22.5
           - 22.5
           - -100.0
@@ -3490,29 +4018,1421 @@ thing:
         - h: 200
           inclusion: 3dpr
           m: ''
-          pos: *id118
+          pos: *id140
           r: 1.8
           shape: cylinder
           type: negative
         - h: 200
           inclusion: 'true'
           m: ''
-          pos: *id118
+          pos: *id140
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id141
+          - 22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id141
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id141
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id142
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id142
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id142
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id143
+          - -15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id143
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id143
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id144
+          - -7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id144
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id144
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id145
+          - 0.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id145
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id145
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id146
+          - 7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id146
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id146
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id147
+          - 15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id147
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id147
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id148
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id148
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id148
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id149
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id149
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id149
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id150
+          - -22.5
+          - -22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id150
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id150
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id151
+          - -22.5
+          - -15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id151
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id151
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id152
+          - -22.5
+          - -7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id152
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id152
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id153
+          - -22.5
+          - 0.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id153
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id153
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id154
+          - -22.5
+          - 7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id154
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id154
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id155
+          - -22.5
+          - 15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id155
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id155
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id156
+          - -22.5
+          - 22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id156
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id156
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id157
+          - -22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id157
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id157
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id158
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id158
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id158
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id159
+          - 22.5
+          - -22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id159
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id159
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id160
+          - 22.5
+          - -15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id160
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id160
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id161
+          - 22.5
+          - -7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id161
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id161
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id162
+          - 22.5
+          - 0.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id162
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id162
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id163
+          - 22.5
+          - 7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id163
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id163
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id164
+          - 22.5
+          - 15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id164
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id164
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id165
+          - 22.5
+          - 22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id165
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id165
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id166
+          - 22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id166
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id166
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id167
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id167
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id167
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id168
+          - -15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id168
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id168
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id169
+          - -7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id169
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id169
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id170
+          - 0.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id170
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id170
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id171
+          - 7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id171
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id171
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id172
+          - 15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id172
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id172
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id173
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id173
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id173
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id174
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id174
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id174
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id175
+          - -22.5
+          - -22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id175
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id175
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id176
+          - -22.5
+          - -15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id176
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id176
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id177
+          - -22.5
+          - -7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id177
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id177
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id178
+          - -22.5
+          - 0.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id178
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id178
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id179
+          - -22.5
+          - 7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id179
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id179
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id180
+          - -22.5
+          - 15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id180
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id180
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id181
+          - -22.5
+          - 22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id181
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id181
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id182
+          - -22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id182
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id182
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id183
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id183
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id183
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id184
+          - 22.5
+          - -22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id184
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id184
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id185
+          - 22.5
+          - -15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id185
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id185
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id186
+          - 22.5
+          - -7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id186
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id186
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id187
+          - 22.5
+          - 0.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id187
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id187
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id188
+          - 22.5
+          - 7.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id188
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id188
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id189
+          - 22.5
+          - 15.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id189
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id189
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id190
+          - 22.5
+          - 22.5
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id190
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id190
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id191
+          - 22.5
+          - 30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id191
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id191
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id192
+          - -22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id192
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id192
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id193
+          - -15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id193
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id193
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id194
+          - -7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id194
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id194
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id195
+          - 0.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id195
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id195
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id196
+          - 7.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id196
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id196
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id197
+          - 15.0
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id197
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id197
+          r: 1.5
+          shape: cylinder
+          type: negative
+      - - h: 200
+          inclusion: laser
+          m: ''
+          pos: &id198
+          - 22.5
+          - -30.0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 3dpr
+          m: ''
+          pos: *id198
+          r: 1.8
+          shape: cylinder
+          type: negative
+        - h: 200
+          inclusion: 'true'
+          m: ''
+          pos: *id198
           r: 1.5
           shape: cylinder
           type: negative
     - - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: laser
-        pos: &id119
+        pos: &id199
         - 7.5
         - 32.75
         - 10.625
         r: 7.625
         radius: 7.625
-        rot: &id120
+        rot: &id200
         - 90
         - 0
         - 0
@@ -3522,28 +5442,28 @@ thing:
       - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: 3dpr
-        pos: *id119
+        pos: *id199
         r: 7.625
-        rot: *id120
+        rot: *id200
         shape: cylinder
         type: negative
         width: 4
       - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: 'true'
-        pos: *id119
+        pos: *id199
         r: 7.625
         radius: 7.625
-        rot: *id120
+        rot: *id200
         shape: cylinder
         type: negative
         width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-          height: 4
+          height: 5
           pos:
           - 4.375
           - 2.5
@@ -3560,7 +5480,7 @@ thing:
           type: negative
           width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-          height: 4
+          height: 5
           pos:
           - -7.625
           - 0.0
@@ -3579,15 +5499,15 @@ thing:
     - - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: laser
-        pos: &id121
+        pos: &id201
         - -7.5
         - 32.75
         - 10.625
         r: 7.625
         radius: 7.625
-        rot: &id122
+        rot: &id202
         - 90
         - 0
         - 0
@@ -3597,28 +5517,28 @@ thing:
       - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: 3dpr
-        pos: *id121
+        pos: *id201
         r: 7.625
-        rot: *id122
+        rot: *id202
         shape: cylinder
         type: negative
         width: 4
       - depth: 50.5
         extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
         h: 50.5
-        height: 4
+        height: 5
         inclusion: 'true'
-        pos: *id121
+        pos: *id201
         r: 7.625
         radius: 7.625
-        rot: *id122
+        rot: *id202
         shape: cylinder
         type: negative
         width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-          height: 4
+          height: 5
           pos:
           - -10.625
           - 2.5
@@ -3635,7 +5555,7 @@ thing:
           type: negative
           width: 4
     - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-          height: 4
+          height: 5
           pos:
           - -7.625
           - 0.0
@@ -3665,7 +5585,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3682,7 +5602,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3699,7 +5619,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3716,7 +5636,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3734,9 +5654,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id123
+            pos: &id203
             - 0
             - 0
             - -100.0
@@ -3746,18 +5666,18 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id123
+            pos: *id203
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id123
+            pos: *id203
             r: 3.0
             shape: cylinder
             type: positive
@@ -3775,7 +5695,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3792,7 +5712,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3809,7 +5729,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3826,7 +5746,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3844,9 +5764,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id124
+            pos: &id204
             - 0
             - 0
             - -100.0
@@ -3856,18 +5776,18 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id124
+            pos: *id204
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id124
+            pos: *id204
             r: 3.0
             shape: cylinder
             type: positive
@@ -3885,7 +5805,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3902,7 +5822,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3919,7 +5839,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3936,7 +5856,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -3954,9 +5874,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id125
+            pos: &id205
             - 0
             - 0
             - -100.0
@@ -3966,25 +5886,25 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id125
+            pos: *id205
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id125
+            pos: *id205
             r: 3.0
             shape: cylinder
             type: positive
             width: 4
         pos:
         - -22.5
-        - 7.5
+        - 0.0
         - 0
         rot:
         - 0
@@ -4006,7 +5926,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4023,7 +5943,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4040,7 +5960,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4057,7 +5977,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4075,9 +5995,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id126
+            pos: &id206
             - 0
             - 0
             - -100.0
@@ -4087,18 +6007,18 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id126
+            pos: *id206
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id126
+            pos: *id206
             r: 3.0
             shape: cylinder
             type: positive
@@ -4116,7 +6036,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4133,7 +6053,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4150,7 +6070,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4167,7 +6087,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4185,9 +6105,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id127
+            pos: &id207
             - 0
             - 0
             - -100.0
@@ -4197,18 +6117,18 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id127
+            pos: *id207
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id127
+            pos: *id207
             r: 3.0
             shape: cylinder
             type: positive
@@ -4226,7 +6146,7 @@ thing:
           type: positive
           width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4243,7 +6163,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4260,7 +6180,7 @@ thing:
                     type: positive
                     width: 4
         - - - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4277,7 +6197,7 @@ thing:
                     type: positive
                     width: 4
             - - - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-                    height: 4
+                    height: 5
                     inclusion: 3dpr
                     pos:
                     - -2.875
@@ -4295,9 +6215,9 @@ thing:
                     width: 4
         - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: laser
-            pos: &id128
+            pos: &id208
             - 0
             - 0
             - -100.0
@@ -4307,25 +6227,25 @@ thing:
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 3dpr
-            pos: *id128
+            pos: *id208
             r: 3.25
             shape: cylinder
             type: positive
             width: 4
           - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
             h: 200
-            height: 4
+            height: 5
             inclusion: 'true'
-            pos: *id128
+            pos: *id208
             r: 3.0
             shape: cylinder
             type: positive
             width: 4
         pos:
         - 22.5
-        - 7.5
+        - 0.0
         - 0
         rot:
         - 0
@@ -4344,7 +6264,7 @@ thing:
     type: rotation
     typetype: p
   - - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-      height: 4
+      height: 5
       pos:
       - -250.0
       - -250.0
@@ -4357,7 +6277,7 @@ thing:
       type: negative
       width: 4
     - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-      height: 4
+      height: 5
       pos:
       - -250.0
       - -250.0
@@ -4370,7 +6290,7 @@ thing:
       type: negative
       width: 4
     - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-      height: 4
+      height: 5
       pos:
       - -250.0
       - -250.0
@@ -4385,7 +6305,7 @@ thing:
   components_objects:
   - depth: 9
     extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4406,7 +6326,7 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 7.5
+    - 15
     - 9
     save_type: all
     shape: oobb_plate
@@ -4416,9 +6336,10 @@ thing:
   - both_holes: true
     depth: 9
     extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     holes:
     - top
+    - left
     - bottom
     modes:
     - 3dpr
@@ -4434,7 +6355,7 @@ thing:
     width: 4
   - depth: 50.5
     extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4457,7 +6378,7 @@ thing:
     type: n
     width: 4
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4484,7 +6405,7 @@ thing:
     width: 4
     zz: middle
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4512,7 +6433,7 @@ thing:
     zz: bottom
   - depth: 50.5
     extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4535,7 +6456,7 @@ thing:
     type: n
     width: 4
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4562,7 +6483,7 @@ thing:
     width: 4
     zz: middle
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4589,7 +6510,7 @@ thing:
     width: 4
     zz: bottom
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     hole: true
     modes:
     - 3dpr
@@ -4597,7 +6518,7 @@ thing:
     overwrite: true
     pos:
     - -22.5
-    - 7.5
+    - 0.0
     - 0
     radius_name: m6
     rot:
@@ -4610,7 +6531,7 @@ thing:
     type: n
     width: 4
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     hole: true
     modes:
     - 3dpr
@@ -4618,7 +6539,7 @@ thing:
     overwrite: true
     pos:
     - 22.5
-    - 7.5
+    - 0.0
     - 0
     radius_name: m6
     rot:
@@ -4631,7 +6552,7 @@ thing:
     type: n
     width: 4
   - extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-    height: 4
+    height: 5
     modes:
     - 3dpr
     overwrite: true
@@ -4645,24 +6566,24 @@ thing:
     type: n
     width: 4
   components_string:
-  - oobb_plate_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
-  - oobb_plate_shape_p_type_12_depth_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_1_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
-  - oobb_holes_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_both_holes_'top'_'bottom'_holes
-  - oobb_cylinder_shape_n_type_50.5_depth_7.5_32.75_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_7.625_radius_90_0_0_rot
-  - oobb_cube_shape_n_type_7.5_27.625_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
-  - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
-  - oobb_cylinder_shape_n_type_50.5_depth_-7.5_32.75_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_7.625_radius_90_0_0_rot
-  - oobb_cube_shape_n_type_-7.5_27.625_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
-  - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
-  - oobb_nut_shape_n_type_m6_radius_name_-22.5_7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot
-  - oobb_nut_shape_n_type_m6_radius_name_22.5_7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot
-  - oobb_slice_shape_n_type_0_0_-491_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
-  description: oomlout oobb holder electronic battery base 4x4x9
+  - oobb_plate_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
+  - oobb_plate_shape_p_type_12_depth_0_15_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_1_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
+  - oobb_holes_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_both_holes_'top'_'left'_'bottom'_holes
+  - oobb_cylinder_shape_n_type_50.5_depth_7.5_32.75_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_7.625_radius_90_0_0_rot
+  - oobb_cube_shape_n_type_7.5_27.625_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
+  - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_7.5_32.75_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
+  - oobb_cylinder_shape_n_type_50.5_depth_-7.5_32.75_35.875_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_7.625_radius_90_0_0_rot
+  - oobb_cube_shape_n_type_-7.5_27.625_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_6.25_50.25_9_size_0_0_0_rot_middle_zz
+  - oobb_cube_shape_n_type_0_7.5_9_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_-7.5_32.75_10.625_shift_15.25_15_1.875_size_0_0_0_rot_bottom_zz
+  - oobb_nut_shape_n_type_m6_radius_name_-22.5_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot
+  - oobb_nut_shape_n_type_m6_radius_name_22.5_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra_true_hole_true_overhang_0_0_30.0_rot
+  - oobb_slice_shape_n_type_0_0_-491_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_5_height_9_thickness_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket_extra
+  description: oomlout oobb holder electronic battery base 4x5x9
   extra: double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-  folder: things/oobb_oomlout_oobb_holder_electronic_battery_base_04_04_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
-  height: 4
-  height_mm: 59
-  id: oobb_oomlout_oobb_holder_electronic_battery_base_04_04_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
+  folder: things/oobb_oomlout_oobb_holder_electronic_battery_base_04_05_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
+  height: 5
+  height_mm: 74
+  id: oobb_oomlout_oobb_holder_electronic_battery_base_04_05_09_ex_double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket
   thickness: 9
   thickness_mm: 9
   type: oomlout_oobb_holder_electronic_battery_base
