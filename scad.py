@@ -89,6 +89,18 @@ def make_scad(**kwargs):
         part["name"] = "base"
         parts.append(part)
 
+        part = copy.deepcopy(part_default)
+        p3 = copy.deepcopy(kwargs)
+        p3["width"] = 4
+        p3["height"] = 5
+        p3["thickness"] = 21
+        p3["extra"] = "double_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_sm_latching_2_pin_socket"
+        part["kwargs"] = p3
+        part["name"] = "base"
+        parts.append(part)
+
+
+
     #make the parts
     if True:
         for part in parts:
@@ -143,23 +155,28 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
     oobb_base.append_full(thing,**p3)
 
     #add top plate
-    p3 = copy.deepcopy(kwargs)
-    p3["type"] = "p"
-    p3["shape"] = f"oobb_plate"
-    dep_top = 21 - depth
-    p3["depth"] = dep_top
-    p3["height"] = 1    
-    #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos)
-    shift_y = 15/2
-    if height % 2 != 0:
-        shift_y = 15
-    pos1[1] += shift_y
-    pos1[2] += depth
-    p3["pos"] = pos1
-    oobb_base.append_full(thing,**p3)
+    if depth < 21:
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"oobb_plate"
+        dep_top = 21 - depth
+        p3["depth"] = dep_top
+        p3["height"] = 1    
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)
+        shift_y = 15/2
+        if height % 2 != 0:
+            shift_y = 15
+        pos1[1] += shift_y
+        pos1[2] += depth
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
 
-    
+    depth_original = depth
+    if depth == 21:
+
+        depth = 9
+        kwargs["thickness"] = 9
 
     #add holes seperate
     p3 = copy.deepcopy(kwargs)
@@ -229,7 +246,7 @@ def get_base_electronic_battery_aa_size_14_mm_diameter_50_mm_depth_lithium_jst_s
 
 
 
-
+    kwargs["thickness"] = depth_original
 
     if prepare_print:
         #put into a rotation object
